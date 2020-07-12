@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>	
+    <H2> <strong th:text="${name}"></strong> ID 신청건 입니다.</H3>
+    <h4> 사번 : <span th:text="${id}"></span></h2>
+    <h4> <span th:text="${re}"></span> </h4>
+    <input type="button" value="승인" />
+    <input type="button" value="반려" />
+</body>
+</html>
